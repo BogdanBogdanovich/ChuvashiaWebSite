@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -87,6 +88,7 @@ body {
     align-items: center;
     position: relative;
     text-align: center;
+    border: #010101;
 }
 .main-article__header {
     text-transform: uppercase;
@@ -108,3 +110,39 @@ body {
     font-size: calc(var(--index) * .75);
     letter-spacing: calc(var(--index) / 3.75);
 }
+.logbutton {
+    position: absolute;
+    top:108%;
+    left:82.5%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.logbutton:hover {
+    background-color: white;
+    color: #1a0031;
+}
+.regbutton {
+    position: absolute;
+    top:108%;
+    left:92%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.regbutton:hover {
+    background-color: white;
+    color: #1a0031;
+}
+.problemimages {
+    position: absolute;
+    left: 8%;
+}
+
+
